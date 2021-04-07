@@ -1,0 +1,9 @@
+#! /bin/bash 
+socktest -v <<- EOF
+	socket -d inet -t datagram
+	close
+	help
+	quit
+
+echo "command interpretation continued"
+firefox 
